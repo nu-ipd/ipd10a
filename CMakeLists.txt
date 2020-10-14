@@ -13,3 +13,7 @@ add_c_program(sort_refactored src/sort_refactored.c)
 add_c_program(sort_on_stack src/sort_on_stack.c)
 add_c_program(sort_structs_on_stack src/sort_structs_on_stack.c)
 add_c_program(sort_ptrs_on_stack src/sort_ptrs_on_stack.c)
+
+add_c_test_program(ipd10a-3 exercise/ipd10a-3.c)
+add_c_test_program(ipd10a-4 exercise/ipd10a-4.c)
+add_c_test_program(ipd10a-5 exercise/ipd10a-5.c)
